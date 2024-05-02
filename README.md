@@ -1,13 +1,13 @@
-<p>	Given a string s, return the number of palindromic substrings in it. A string is a palindrome when it reads the same backward as forward. A substring is a contiguous sequence of characters within the string. </p>
+
+Given a string s, return the number of palindromic substrings in it. A string is a palindrome when it reads the same backward as forward. A substring is a contiguous sequence of characters within the string. </p>
 <a href="https://leetcode.com/problems/palindromic-substrings/description/?envType=list&envId=55afh7m7">Link</a>
 <ul>
 <li>Example 1: Input: s = "abc" Output: 3 Explanation: Three palindromic strings: "a", "b", "c". </li>
 <li>Example 2: Input: s = "aaa" Output: 6 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".</li>
-<ul>
+<ul><br/><b><u>Explanation:</u></b><br/>
+ The problem is asking us to count how many palindromic words and group of letters are in a given string. Lets use a technique called “expand aound center” to find palindromic substrings efficiently.
 
-<b><u>Explanation:</u></b><br/>
   
-The problem is asking us to count how many palindromic words and group of letters are in a given string. Lets use a technique called “expand aound center” to find palindromic substrings efficiently.
 <b><u>Brute force approach:</u></b> 
 <a href="https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/">https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/</a><br/>
 A brute force approach would be to generate all possible substrings of the given string and check if each substring is a palindrome. This approach would have a time complexity of O(n^3) because there are O(n^2) substrings, and for each substring, we need O(n) operations to check if it's a palindrome. While this approach is simple, it's not efficient for large strings.<br/>
