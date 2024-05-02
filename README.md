@@ -4,7 +4,7 @@
 <li>Example 1: Input: s = "abc" Output: 3 Explanation: Three palindromic strings: "a", "b", "c". </li>
 <li>Example 2: Input: s = "aaa" Output: 6 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".</li>
 <ul>
-<p>
+
 <b><u>Explanation:</u></b><br/>
   
 The problem is asking us to count how many palindromic words and group of letters are in a given string. Lets use a technique called “expand aound center” to find palindromic substrings efficiently.
