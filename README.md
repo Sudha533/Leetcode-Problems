@@ -6,6 +6,7 @@
 <ul>
 <p>
 <b><u>Explanation:</u></b><br/>
+  
 The problem is asking us to count how many palindromic words and group of letters are in a given string. Lets use a technique called “expand aound center” to find palindromic substrings efficiently.
 <b><u>Brute force approach:</u></b> 
 <a href="https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/">https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/</a><br/>
