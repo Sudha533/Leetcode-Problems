@@ -1,5 +1,5 @@
 # Example String
-s="abc"
+s="abcba"
 
 #Intialize count
 count = 0
