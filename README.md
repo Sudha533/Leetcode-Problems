@@ -109,7 +109,7 @@ Print(“Total palindromic substrings:”, count)
 
 ARRAY: 
 Imagine arrays as a line of boxes where you can store items. Each box has a number, starting from 0. You can easily find what's inside a specific box by knowing its number. Adding a new item to the line or removing an item might take a bit longer if you have to shift many boxes.
-Example: If you have a line of boxes with numbers written on them (like [1, 3, 2, 5, 4]), finding the biggest number is like looking through each box to find the largest number written on any of them.
+<b>Example:</b> If you have a line of boxes with numbers written on them (like [1, 3, 2, 5, 4]), finding the biggest number is like looking through each box to find the largest number written on any of them.
 Find an maximum number from an array:
 def findMax(arr):
     max_number = float('-inf')
